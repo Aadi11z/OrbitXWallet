@@ -16,7 +16,7 @@ Future Work:
 - Optimized AI Algorithm that connects to a real-time market data API to get the latest prices.
 - Can include a chatbot for customer support
 
-Current Progress:
+Current Progress:(didnt have time to resize images, sorry)
 ![Login Page](assets/curr_output1.png)
 ![Network Page](assets/curr_output2.png)
 ![Sign Up Page](assets/curr_output3.png)
