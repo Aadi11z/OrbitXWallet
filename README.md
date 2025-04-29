@@ -12,8 +12,9 @@ Features:
 - Easy-to-Use, User Friendly GUI.
 
 Future Work:
-- Backend Support for encrypted data storage
+- Need Backend Support for encrypted data storage
 - Optimized AI Algorithm that connects to a real-time market data API to get the latest prices.
 - Can include a chatbot for customer support
 
 Current Progress:
+![Current Progress of the Wallet] (assets/curr_output.png)
