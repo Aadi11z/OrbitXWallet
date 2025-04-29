@@ -17,4 +17,4 @@ Future Work:
 - Can include a chatbot for customer support
 
 Current Progress:
-![Current Progress of the Wallet] (assets/curr_output.png)
+![Current Progress of the Wallet](assets/curr_output.png)
