@@ -17,6 +17,6 @@ Future Work:
 - Can include a chatbot for customer support
 
 Current Progress:
-![Login Page](assets/curr_output.png)
-![Network Page](assets/curr_output1.png)
-![Sign Up Page](assets/curr_output.png)
+![Login Page](assets/curr_output1.png)
+![Network Page](assets/curr_output2.png)
+![Sign Up Page](assets/curr_output3.png)
