@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@theblockchaincoders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="card2">
+      <!-- HEADER -->
+      <div class="header">
+        <div class="header_log">
+          <img src="./assets/theblockchaincoders.png" alt="tbcc" />
+        </div>
+        <div class="header_network" id="header_network">
+          <p>
+            <img src="assets/SVG/question.svg" class="icon" alt="question" />
+            <span id="selected_network">Polygon Mumbai</span>
+            <img src="assets/SVG/arrow.svg" class="icon" alt="arrow" />
+          </p>
+        </div>
+      </div>
+      <!-- END HEADER -->
+
+      <!-- NETWORK -->
+      <div id="network" class="network">
+        <div class="network_title">
+          <p>Networks</p>
+        </div>
+        <div id="network_item" class="network_list">
+          <div class="network_item">
+            <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+            <span>Ethereum Mainnet</span>
+          </div>
+          <div class="network_item">
+            <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+            <span>Polygon Mainnet</span>
+          </div>
+          <div class="network_item">
+            <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+            <span>Polygon Mumbai</span>
+          </div>
+        </div>
+        <button id="add_network" class="button3 addStyle">Add</button>
+      </div>
+      <!-- END NETWORK -->
+
+      <!-- HOME SCREEN -->
+      <div id="createAccount" class="home_screen_signup">
+        <img src="./assets/theblockchaincoders.png" alt="tbcc" class="home_screen_img" />
+        <h1 class="home_title">tbcc</h1>
+        <p>Welcome</p>
+        <button id="openCreate" class="button3 connectWallet">Create Account</button>
+        <p>Login to your account <strong class="home_title" id="loginAccount">LOGIN</strong></p>
+      </div>
+      <!-- END HOME SCREEN -->
+
+      <!-- POPUP (Placeholder) -->
+      <div id="create_popUp" class="create_popUp">
+        <div class="form">
+          <p id="heading"> Create Account</p>
+          <div id="field">
+            <div class="field">
+              <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+              <input type="text" class="input-field" placeholder="name" id="sign_up_name" />
+            </div>
+            <p class="space"></p>
+            <div class="field">
+              <img src="assets/SVG/@.svg" class="icon" alt="@" />
+              <input type="text" class="input-field" placeholder="email" id="sign_up_email" />
+            </div>
+            <p class="space"></p>
+            <div class="field">
+              <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+              <input type="text" class="input-field" placeholder="password" id="sign_up_password" />
+            </div>
+            <p class="space"></p>
+            <div class="field">
+              <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+              <input type="text" class="input-field" placeholder="passwordConfirm" id="sign_up_passwordConfirm" />
+            </div>
+            <p class="space"></p>
+          </div>
+          <div id="center" class="center">
+            <div class="loader">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <div class="bar4"></div>
+              <div class="bar5"></div>
+              <div class="bar6"></div>
+              <div class="bar7"></div>
+              <div class="bar8"></div>
+              <div class="bar9"></div>
+              <div class="bar10"></div>
+              <div class="bar11"></div>
+              <div class="bar12"></div>
+            </div>
+          </div>
+
+          <div id="accountData" class="accountData">
+            <h3 id="accountInfo"> Address </h3>
+            <p id="createAddress"> Address: </p>
+            <h3> Private Key </h3>
+            <p id="createdPrivateKey"> Private Key: </p>
+            <h3> Mnemonic </h3>
+            <p id="createdMnemonic"> Mnemonic </p>
+          </div>
+
+          <button id="sign_up" class="button3 connectWallet"> Sign Up </button>
+
+          <button id="goHomePage" class="button3 connectWallet"> Go Back </button>
+        </div>
+      </div>
+
+      <!-- LOGIN -->
+      <div id="loginUser" class="home_screen_login">
+        <img src="./assets/theblockchaincoders.png" alt="" class="home_screen_img"/>
+
+        <h1 class="home_title">tbcc</h1>
+        <p> Welcome </p>
+        <div class="form" id="login_form">
+
+          <div class="field">
+            <img src="assets/SVG/@.svg" class="icon" alt="@" />
+            <input type="text" id="login_email" class="input-field" placeholder="email" />
+          </div>
+
+          <div class="field">
+            <img src="assets/SVG/lock.svg" class="icon" alt="lock" />
+            <input type="text" id="login_password" class="input-field" placeholder="password" />
+          </div>
+
+        </div>
+
+        <button id="login_up" class="button3 connectWallet">
+          Login
+        </button>
+        <p> Login to your account <strong class="home_title" id="createAccount"> Create Account </strong></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
