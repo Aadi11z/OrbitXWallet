@@ -1,114 +1,19 @@
-# MetaMass Clone Wallet
+# OrbitXWallet
 
-Building and Deploying a DeFi MetaMass Wallet Clone for Secure Transactions
+A smart and convenient wallet for OrbitXPay Users.
 
-MetaMass offers a revolutionary approach to decentralized finance (DeFi) with our wallet clone project. Drawing inspiration from the acclaimed MetaMask, our MetaMass clone empowers users to securely manage their digital assets, interact with decentralized applications (dApps), and participate in the vibrant DeFi ecosystem.
+Features:
+- Transacts on the Polygon Blockchain and utilizes its low gas fee facility.
+- Available in both webpage and extensions format as per the user's convenience.
+- Showcases available funds, transaction history, facilitates buying, sending and receiving tokens.
+- Customizable Spending Limits for shopping and investment goals with alerts that remind you to not over spend while also giving you the joy of purchasing.
+- Integrated Smart AI feature that informs the user of the lowest gas price, with customizable period (usually 24h period), and help the user execute the transaction (Two ways are possible: {Difficult} Either we queue the transaction in the wallet and execute when the price drops below a certin threshold (either user decides or AI sets one) or {Easier} Send notification to the user when the gas price drops low). The transaction can be anything a simple buy order, transfer order or swap, etc.
+- Also gives the user Alerts when their balance falls below a threshold, which necessary for their queued payment or investment goals, reminding to refill.
+- Easy-to-Use, User Friendly GUI.
 
-Our MetaMass clone prioritizes security, usability, and interoperability, ensuring that users have full control over their funds while enjoying seamless access to a wide range of DeFi protocols and services. By replicating MetaMask's features and functionalities, MetaMass provides a familiar and intuitive user experience, making it easy for both novice and experienced users to navigate the decentralized landscape.
+Future Work:
+- Backend Support for encrypted data storage
+- Optimized AI Algorithm that connects to a real-time market data API to get the latest prices.
+- Can include a chatbot for customer support
 
-## Project Overview
-
-![alt text](https://www.daulathussain.com/wp-content/uploads/2023/06/build-metamask-clone-chrome-extension.jpg)
-
-## Instruction
-
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
-
-
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-metamask-clone-chrome-extension-form-scratch)
-
-#### Setup Video
-- [Final Code Setup video](https://youtu.be/p04GRmC7rA0?si=wLdiPs6RMHZg99LH)
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
-
-#### Clone Starter File
-
-```https://github.com/daulathussain/Airdrop-Crypto-Starter-File
-  GET: Project Starter File Download
-```
-
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
-
-
-#### Test Faucets
-
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```https://www.alchemy.com/faucets
-  Get: Free Test Faucets
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Mumbai
-
-```https://mumbai.polygonscan.com/
-  OPEN: Polygon Mumbai
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
-
+Current Progress:

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 })
 
-let providerURL = 'https://polygon-mainnet.g.alchemy.com/v2/QnsfQgKHfNyd6KMcXFIzn45j0pPfxBEs/getNFTs/?owner=vitalik.eth';
+let providerURL = PROVIDER_URL;
 
 // let provider;
 let privateKey;
@@ -81,15 +81,15 @@ function getSelectedNetwork(){
     element.innerHTML = e.target.innerHTML;
 
     if(e.target.innerHTML === "Ethereum Mainnet"){
-        providerURL = "https://rpc.ankr.com/eth/0f25d2b660c7e4aca26bd4ac270711b6814f3a69fc96747f668c37bf61763360";
+        providerURL = ETHEREUM_MAINNET;
         document.getElementById("network").style.displey = "none";
     }
     else if (e.target.innerHTML == "Polygon Mainnet") {
-        providerURL = "https://polygon-mainnet.g.alchemy.com/v2/QnsfQgKHfNyd6KMcXFIzn45j0pPfxBEs/getNFTs/?owner=vitalik.eth";
+        providerURL = POLYGON_MAINNET;
         document.getElementById("network").style.displey = "none";
     }
     else if (e.target.innerHTML == "Polygon Mumbai") {
-        providerURL = "https://rpc.ankr.com/polygon_amoy/0f25d2b660c7e4aca26bd4ac270711b6814f3a69fc96747f668c37bf61763360";
+        providerURL = POLYGON_MUMBAI;
         document.getElementById("network").style.displey = "none";
     }
 };
